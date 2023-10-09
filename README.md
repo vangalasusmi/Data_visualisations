@@ -5,7 +5,7 @@
 I selected to work with Option 2 which was a cleaned data set of FIFA players from FIFA 2018 game. The game has more than 17k players with 70 attributes extracted. The goal of this project is to perform Exploratory Data Analysis, observe trends, patterns and outliers. Use those initial observations to tell a meaningful story through visualizations.
 
 ## Process
-### I connected the dataset to Tableau (without stress), studied and tried to understand the entire dataset. Examined the datatypes. Most of the relevant datatypes were numerical columns.
+### I connected the dataset to Tableau, studied and tried to understand the entire dataset. Examined the datatypes. Most of the relevant datatypes were numerical columns.
 
 1. The valuable missing data are number of goals scored, number of matches played, number of assists, passes completed, succesful tackles, successful interceptions, number of club championships won, number of continental and international trophies won for country. It made sense these vital data were missing because the data was downloaded from a one year FIFA game edition.
 2. The most important features from the dataset are:
@@ -71,9 +71,8 @@ The results of the data visualization were presented using a story. The story be
 
 
 ## Challenges 
- - I initially started working on Option 1 because I felt my data visualization skills were insufficient for a standalone task. I spent four to five hours trying to parse the JSON file by extracting relevant columns into Tableau, failed to connect the other Excel files together, not understanding most of the columns in the tables. After going deep down a rabbithole, I deleved into this dataset instead. For this dataset, my greatest challenge was trying to use my basic Tableau skills to gain meaningful insights from the limited data types in the dataset.
- - The cluster analysis I performed reset itself quite a number of times, without me fiddling around with anything.
- - The URL links included in the dataset are dummies. They're probably attached to a special server only the game can access. The pictures are also probably not real-life pictures of the players (most likely animated jpegs).
+ - I initially started working on Option 1 because I felt my data visualization skills were insufficient for a standalone task. I spent four to five hours trying to parse the JSON file by extracting relevant columns into Tableau, failed to connect the other Excel files together, not understanding most of the columns in the tables. 
+ 
 
 ## Future Goals
 Spend more time working on the Cluster analysis for the classification of players by `[Overall Player Ratio]`. Also try to perform a Cluster analysis for the `[Player Positions]` category. Explore other vital contributors (features) to a player's value (such as player performance metrics e.t.c).
